@@ -26,7 +26,7 @@ QLoRA 파인튜닝 Qwen2.5-VL-32B 기반 충남대학교 도서관 웹사이트 
 ![Demo](./demo_library.gif)
 
 > **KCC 2026 제출 논문** | 충남대학교 Data Network 연구실
-> 논문 PDF는 본 repo의 `paper/` 폴더에서 확인하실 수 있습니다.
+[![Paper](https://img.shields.io/badge/Paper-KCC%202026-blue?style=flat-square)](./paper/kcc2026.pdf)
 
 ---
 
@@ -140,6 +140,11 @@ Observe → Reason → Act 루프 (최대 30 step)
 ---
 
 ## Tech Stack
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/)
+[![vLLM](https://img.shields.io/badge/vLLM-009688?style=flat-square)](https://github.com/vllm-project/vllm)
 
 - **모델**: Qwen2.5-VL-32B-Instruct
 - **파인튜닝**: QLoRA (r=16, α=32, 4-bit nf4) via PEFT/bitsandbytes
