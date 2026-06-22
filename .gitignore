@@ -1,0 +1,35 @@
+# 환경 변수 (민감 정보)
+.env
+*.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# 모델 가중치 (용량 큼)
+exaone-test/models/
+cnu-finetune/output/
+*.safetensors
+*.bin
+
+# 로그 (선택적으로 일부만 포함)
+*.log
+
+# 데이터/결과 (대용량은 제외, 필요시 개별 추가)
+browser-use/data/conversations_*/
+browser-use/data/gifs_*/
+browser-use/data/downloads/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+*.swp
+browser-use/data/*.jsonl
